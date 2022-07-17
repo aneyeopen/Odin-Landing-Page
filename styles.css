@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer-Block, .Header-Block, .Intro-Block {
+    background-color: #1f2937;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0;
+    gap: 16px;
+    font-size: 18px;
+}
+
+.Header-Block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Header-Logo {
+    color: #E5E7EB;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Intro-Body {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a:link {
+    text-decoration: none; 
+    color: #E5E7EB;
+}
+
+.Intro-Header {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+button, .Action-Block {
+    background-color: #3882f6;
+    color: #F9FAF8;
+}
+
+.Random-Header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.Quote-Block {
+    background-color: #E5E7EB;
+}
+
+.Inspiring-Quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
