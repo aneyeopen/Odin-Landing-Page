@@ -2,9 +2,15 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+    padding: 0;
+    background: url(./Images/QuoteBack.jpg) no-repeat fixed;
+
+
 }
 
-.Footer-Block, .Header-Block, .Intro-Block {
+.Footer-Block, .Random-Info-Block {
     background-color: #1f2937;
 }
 
@@ -22,6 +28,17 @@ ul {
     justify-content: space-around;
     align-items: center;
 }
+
+.Intro-Block {
+    display: flex;
+    justify-content: center;
+}
+
+.Intro-Container {
+    max-width: 300px;
+    padding: 38px;
+}
+
 
 .Header-Logo {
     color: #E5E7EB;
@@ -46,6 +63,15 @@ a:link {
     color: #F9FAF8;
 }
 
+.Intro-Block {
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+}
+
 button, .Action-Block {
     background-color: #3882f6;
     color: #F9FAF8;
@@ -54,17 +80,79 @@ button, .Action-Block {
 .Random-Header {
     font-size: 36px;
     font-weight: bolder;
-    color: #1f2937;
 }
 
 .Quote-Block {
-    background-color: #E5E7EB;
+    color: #F9FAF8;
+
+
 }
 
 .Inspiring-Quote {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    color: #1f2937;
+    padding: 80px;
+
 }
 
+.Footer-Block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    color: #F9FAF8;
+}
+
+.Intro-Block img {
+    object-fit: cut;
+    width: 480px;
+    height: auto;
+    border: #F9FAF8;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: thick;
+}
+
+
+.Random-Info-Block {
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    padding: 80px;
+    gap:40px;
+    padding-left: 0;
+    
+}
+
+.Random-Header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Rand-Container {
+    display: flex;
+    align-items: baseline ;
+    justify-content: center;
+    padding: 0;
+    gap: 20px;
+
+} 
+
+
+.Random-Info-Block img {
+    object-fit: scale-down;
+    width: auto;
+    height: 200px;
+    border: #3882f6;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: thick;
+}
